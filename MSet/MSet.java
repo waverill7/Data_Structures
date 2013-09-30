@@ -149,7 +149,6 @@ public class MSet extends Object implements Collection {
             return bagContainsElements;
         }
 
-
         /** Compares the specified object with this collection for equality. Overrides Object.equals(). */
         public boolean equals ( Object o ) {
 
@@ -321,7 +320,6 @@ public class MSet extends Object implements Collection {
             throw new UnsupportedOperationException();
         }
 
-
         /** [ADDED] Decrements the number of copies of o in this MSet. Returns true iff this MSet changed
                 as a result of the operation. */
         public boolean reduce ( Object o ) {
@@ -380,7 +378,6 @@ public class MSet extends Object implements Collection {
         private int getColumn ( int n ) {
             return ( ( n - 1 ) % sizeOfPartition );
         }
-
 
 /* The following override methods inherited from Object: */
 
