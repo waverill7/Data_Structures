@@ -13,8 +13,8 @@ public class MSet extends Object implements Collection {
         private Object[][] elements;
         private Object[] partition;
         private int numberOfElements;
-        private static FINAL int sizeOfPartition = 1024;
-        private static FINAL int numberOfPartitions = ( int ) Math.ceil( ( double ) Integer.MAX_VALUE / sizeOfPartition );
+        private static final int sizeOfPartition = 1024;
+        private static final int numberOfPartitions = ( int ) Math.ceil( ( double ) Integer.MAX_VALUE / sizeOfPartition );
 
         /** Constructs an MSet with no elements. */
         public MSet () {
