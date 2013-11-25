@@ -382,6 +382,7 @@ public class BinaryTree implements java.util.Collection {
         Increases the size of this binary tree by incrementing its number of nodes.
     */
     void increaseSize ( int numberOfNodes ) {
+        
         if ( numberOfNodes >= 0 ) {
             this.numberOfNodes += numberOfNodes;
         }
@@ -394,6 +395,7 @@ public class BinaryTree implements java.util.Collection {
         Decreases the size of this binary tree by decrementing its number of nodes.
     */
     void decreaseSize ( int numberOfNodes ) {
+        
         if ( numberOfNodes >= 0 ) {
             this.numberOfNodes -= numberOfNodes;
         }
